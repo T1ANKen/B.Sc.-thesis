@@ -1,6 +1,6 @@
 # Graduation-Thesis
 
-data and code for my thesis in Nankai University, about bioinformatics
+data and code for my thesis at Nankai University, about bioinformatics
 
 
 
