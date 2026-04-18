@@ -93,6 +93,6 @@ PS：以上的散点图数据来源于有STRING注释（score＞0）的pairs。
 
 faa是NCBI Assembly的官方基因组核苷酸序列文件，NCBI_ten_genomes是经过转换操作的核苷酸序列文件。其他信息不变，把Product\_Accesion换成Genomic\_Accesion，符合Spacedust预测工具的querydb的格式。
 
-KEGG_70（https://wwwuser.gwdguser.de/~compbiol/spacedust/KEGG_70.tar.gz）
+KEGG_70是Spacedust的reference数据库clusterdb，作为预测工具的target数据。通过KEGG_70和NCBI_ten_genomes的数据，运行runst.ipynb流程（在Linux预装好工具）即可获得输出。
 
-是Spacedust的reference数据库clusterdb，作为预测工具的target数据。通过KEGG_70和NCBI_ten_genomes的数据，运行runst.ipynb流程（在Linux预装好工具）即可获得输出。
+以上的所有输入和输出数据在我的Google Drive里：https://drive.google.com/drive/folders/1ArZGq40EQeVjJmZZ8ohVigx_3YmbPAtp?usp=drive_link
