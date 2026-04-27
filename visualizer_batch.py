@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import TruncatedSVD
-import config
+import species_config
 import os
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -59,7 +59,7 @@ def plot_interactive_bipartite(match_table, top_n=100):
     # 强制使用 BarnesHut 算法，并将引力常数设为较小的值，防止初始速度过快
     net.barnes_hut(gravity=-8000, central_gravity=0.3, spring_length=95, spring_strength=0.04, damping=0.8)
     output_file = "interactive_bipartite.html"
-    output_path = os.path.join(config.PROCESSED_DIR, output_file)
+    output_path = os.path.join(species_config.output_figure_dir, output_file)
     print(f"正在保存文件到: {output_path}")
 
     # 1. 先生成 HTML 字符串

@@ -1,6 +1,6 @@
 import pandas as pd
 
-import data_loader, config
+import data_loader
 
 
 #定义数据预处理函数

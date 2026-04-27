@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import config
 import os
 
 #从特定物种的query.lookup中，添加每个基因的ID，用来连接conservation_matrix和match_pairs

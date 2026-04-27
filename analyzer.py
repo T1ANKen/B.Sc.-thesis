@@ -1,6 +1,5 @@
 from itertools import combinations
 import pandas as pd
-import config
 from collections import Counter
 
 #核心分析：找出三类关联情况不同的蛋白对

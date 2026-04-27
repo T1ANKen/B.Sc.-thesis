@@ -1,0 +1,12 @@
+pandas==2.3.1
+numpy==2.3.2
+matplotlib==3.10.7
+matplotlib-venn==1.1.2
+seaborn==0.13.2
+scipy==1.16.2
+scikit-posthocs==0.12.0
+goatools==1.5.2
+plotly==6.5.0
+scikit-learn==1.7.2
+networkx==3.5
+pyvis==0.3.2

@@ -1,7 +1,6 @@
 import pandas as pd
 from goatools.obo_parser import GODag
 
-import config
 
 #打包处理数据的函数
 def load_basic(path):

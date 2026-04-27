@@ -42,7 +42,7 @@ def analysis(species_key, config):
     df_links['coexpression_score'] = df_links['coexpression']
     df_links['neighborhood_score'] = df_links['neighborhood']
     df_links['cooccurence_score'] = df_links['cooccurence']
-    df_links = df_links[['protein1', 'protein2', 'original_combined_score', 'combined_score', 'fusion_score', 'experimental_score', 'database_score', 'textmining_score', 'neighborhood_score', 'cooccurence_score']]
+    df_links = df_links[['protein1', 'protein2', 'original_combined_score', 'combined_score', 'fusion_score', 'experimental_score', 'database_score', 'textmining_score', 'neighborhood_score', 'cooccurence_score', 'coexpression_score']]
     df_links.to_csv(os.path.join(config['output_data_dir'], 'string_links_recalculated.csv'), index=False) #保存重新计算分数后的链接数据，方便后续分析和检查
 
 

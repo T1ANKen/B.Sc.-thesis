@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import config
 from matplotlib_venn import venn2
 from scipy.stats import spearmanr
 from scipy.stats import kruskal
@@ -160,7 +159,7 @@ def compare_pairs(df_matrix, df_lookup, df_pairs, species_config):
 
     # 定义要分析的 STRING 分数列
     string_score_columns = ['original_combined_score', 'combined_score', 'fusion_score', 'experimental_score',
-                             'database_score', 'textmining_score', 'neighborhood_score', 'cooccurence_score']
+                             'database_score', 'textmining_score', 'neighborhood_score', 'cooccurence_score', 'coexpression_score']
     
     # 检查哪些列存在于数据中
     available_score_cols = [col for col in string_score_columns if col in string_pairs.columns]
