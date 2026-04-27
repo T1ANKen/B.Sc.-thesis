@@ -4,7 +4,7 @@ data and code for my thesis at Nankai University, about bioinformatics
 
 
 
-我的毕业论文主题为“基于GO与STRING数据库的Spacedust保守基因簇预测工具的多物种可靠性评估——Reliability evaluation of Spacedust conserved gene clusters prediction tool based on GO and STRING databases“
+我的毕业论文主题为“基于GO与STRING数据库的Spacedust保守基因簇预测工具的多物种可靠性评估——Reliability evaluation of Spacedust conserved gene clusters prediction tool based on GO and STRING databases”
 
 
 
@@ -95,4 +95,4 @@ faa是NCBI Assembly的官方基因组核苷酸序列文件，NCBI_ten_genomes是
 
 KEGG_70是Spacedust的reference数据库clusterdb，作为预测工具的target数据。通过KEGG_70和NCBI_ten_genomes的数据，运行runst.ipynb流程（在Linux预装好工具）即可获得输出。
 
-以上的所有输入和输出数据在我的Google Drive里：https://drive.google.com/drive/folders/1ArZGq40EQeVjJmZZ8ohVigx_3YmbPAtp?usp=drive_link
+以上提到的所有数据在我的Google Drive里展示：https://drive.google.com/drive/folders/1ArZGq40EQeVjJmZZ8ohVigx_3YmbPAtp?usp=drive_link
