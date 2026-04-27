@@ -11,8 +11,15 @@ data and code for my thesis at Nankai University, about bioinformatics
 本仓库展示了我的全部实验代码与原数据、输出结果。原定的10个物种分析，由于其中4个物种的数据注释情况与信息不符合要求，因此最终完整的output只有6个物种有效。
 
 
+##code
 
-*一*
+仓库中展现了我的全部工作代码。
+
+\------------ Introduction ------------
+
+1 config：
+
+##data
 
 Species文件夹是整个实验用到的大部分原始数据，包括来自GO的STRING和NCBI的数据，以及Spacedust发掘保守基因簇所得到的保守矩阵数据。数据以物种为单位分类，每个物种内有5个子文件夹，以下提供介绍。共计6个物种，C.jejuni和S.meliloti被排除。
 
