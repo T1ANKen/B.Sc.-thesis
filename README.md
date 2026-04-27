@@ -12,7 +12,7 @@ data and code for my thesis at Nankai University, about bioinformatics
 
 
 
-
+*一*
 
 Species文件夹是整个实验用到的大部分原始数据，包括来自GO的STRING和NCBI的数据，以及Spacedust发掘保守基因簇所得到的保守矩阵数据。数据以物种为单位分类，每个物种内有5个子文件夹，以下提供介绍。共计6个物种，C.jejuni和S.meliloti被排除。
 
