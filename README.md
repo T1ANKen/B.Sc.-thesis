@@ -17,7 +17,7 @@ data and code for my thesis at Nankai University, about bioinformatics
 
 \------------ Introduction ------------
 
-1 main_multi_species：代码的运行文件。
+1 main：代码的运行文件。
 
 2 species_config：多物种的原始数据路径，后续调用。
 
