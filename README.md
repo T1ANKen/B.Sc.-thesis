@@ -122,4 +122,4 @@ PS：以上的散点图数据来源于有STRING注释（score＞0）的pairs。
 
 
 
-以上提到的所有数据与图片在我的Google Drive里展示：https://drive.google.com/drive/folders/1ArZGq40EQeVjJmZZ8ohVigx_3YmbPAtp?usp=drive_link
+以上提到的** data **与** output **在我的Google Drive里展示：https://drive.google.com/drive/folders/1ArZGq40EQeVjJmZZ8ohVigx_3YmbPAtp?usp=drive_link
